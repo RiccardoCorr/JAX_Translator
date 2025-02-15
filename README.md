@@ -32,8 +32,8 @@ During training, the model learns to translate source sequences to target sequen
    - The current token is embedded using the embedding matrix.
    - The embedded vector is passed through the LSTM, updating the hidden and cell states.
    - The updated hidden state is projected into the vocabulary space, producing logits.
-  - The next token is determined by applying an argmax operation on the logits (deterministic selection).
-  - The selected token is fed back into the decoder as input for the next timestep in an autoregressive way.
+   - The next token is determined by applying an argmax operation on the logits (deterministic selection).
+   - The selected token is fed back into the decoder as input for the next timestep in an autoregressive way.
 
 
  4. The complete generated sentence is returned as output.
