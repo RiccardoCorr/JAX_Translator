@@ -11,7 +11,7 @@ During training, the model learns to translate source sequences to target sequen
 
    - Converts tokens into embeddings.
    - Passes embeddings through the LSTM.
-  - Outputs the final hidden and cell states.
+   - Outputs the final hidden and cell states.
 
 2. The *Decoder* receives Encoder's final states.
 
