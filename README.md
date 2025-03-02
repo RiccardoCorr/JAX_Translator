@@ -2,7 +2,7 @@
 To achieve the goal of creating a translator I decided to implement a sequence-to-sequence model with an Encoder-Decoder architecture, each powered by a single-layer
  LSTM (Long Short-Term Memory) cell, implemented from scratch in JAX.
 
-The model operates in two distinct workflows: one for training and another for generation, which will be implemented and explained in the second exercise.
+The model operates in two distinct workflows: one for training and another for generation.
 
 **Training workflow**:
 During training, the model learns to translate source sequences to target sequences through the following steps:
