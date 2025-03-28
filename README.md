@@ -25,7 +25,7 @@ During training, the model learns to translate source sequences to target sequen
 **Generation workflow**:
 1. The input sequence (a tokenized and padded English sentence) is encoded using the same process as during training, producing the encoder's hidden and cell states.
 
-2. The Decoder starts with the start token (<SOS>) as the initial input.
+2. The Decoder starts with the start token (SOS) as the initial input.
 
 3. At each timestep, until *'max_length'* is reached, the following steps are repeated:
 
